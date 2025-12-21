@@ -24,11 +24,15 @@ class InicioState extends State<Inicio> {
   @override
   void initState() {
     super.initState();
+     WidgetsBinding.instance.addPostFrameCallback((_) {
+    
+  
     inicioviewmodel = widget.inicioviewmodel;
     cargarDatos();
     timer = Timer.periodic(Duration(seconds: 15), (_) {
       cargarDatos();
     });
+     });
   }
 
   @override

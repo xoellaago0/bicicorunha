@@ -33,7 +33,7 @@ class InicioState extends State<Inicio> {
       cargarDatos();
     });
      });
-  }
+  } 
 
   @override
   void dispose() {

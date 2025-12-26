@@ -1,17 +1,12 @@
 # Bicicorunha
 
-App Flutter para consultar bicicletas públicas en A Coruña, mostrar estadísticas con gráficos y exportar PDFs.
+Vista rápidas a la estación que tengas como favorita, pudiendo cambiarla si fuera necesario.
 
-## Tecnologías y dependencias
-- Flutter
-- fl_chart
-- pdf
-- printing
 
 ## Gráficas
-- Gráfico A: Top 3 estaciones con más bicicletas (barras separadas mecánicas y eléctricas)
+- Gráfico A: Top 3 estaciones con más bicicletas (barras separadas entre mecánicas y eléctricas)
 - Gráfico B: Estado de una estación concreta (pie chart con e-bikes, mecánicas y huecos)
-
+ 
 ## Capturas
 
 Inicio con la esatación favorita
@@ -34,3 +29,10 @@ Vista PDF
 
 ![PDF](assets/screenshots/VistaPdf.png)
 
+## Dependencias
+
+- http 
+- fl_chart
+- pdf
+- printing
+- intl
